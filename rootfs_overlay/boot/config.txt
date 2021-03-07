@@ -51,8 +51,7 @@ dtoverlay=i2c-gpio,bus=2,i2c_gpio_sda=17,i2c_gpio_scl=27
 
 # Uncomment this to enable infrared communication.
 dtoverlay=gpio-ir,gpio_pin=17
-dtoverlay=pwm-ir-tx
-#gpio_pin=18
+dtoverlay=gpio-ir-tx,gpio_pin=18
 
 # Additional overlays and parameters are documented /boot/overlays/README
 
